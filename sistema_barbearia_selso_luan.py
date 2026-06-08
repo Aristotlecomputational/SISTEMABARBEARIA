@@ -122,9 +122,9 @@ while True:
                 print(f"  {servico.capitalize()}: {dados['qtd']} unidade(s) | R${dados['faturamento']:.2f}")
         
         faturamento_total = sum(d["faturamento"] for d in estatisticas.values())
-        print(f"\n💰 Faturamento total: R${faturamento_total:.2f}")
+        print(f"\nFaturamento total: R${faturamento_total:.2f}")
     
-    # Sair
+    
     elif opcao == 0:
         print("Obrigado! Volte sempre!")
         break
